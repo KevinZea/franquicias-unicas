@@ -7,7 +7,7 @@ import {
     Text,
     Image
 } from '@chakra-ui/react';
-import paraiso from '../Assets/paraiso.jpeg';
+import paraiso from '../assets/paraiso.jpeg';
 
 const Proyect = () => {
     const blanco = "#faf4e0"
