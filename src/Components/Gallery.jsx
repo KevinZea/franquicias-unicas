@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import Gallery from "react-photo-gallery";
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css"; // Importa los estilos del lightbox
-import { 
+import {
     Box,
     Heading,
     Text,
     Flex
- } from "@chakra-ui/react";
+} from "@chakra-ui/react";
 
 import lote1 from "../assets/lote1.jpg";
 import lote2 from "../assets/lote2.jpg";
@@ -102,9 +102,9 @@ const MyGallery = () => {
 
     return (
         <Box
-        w={"100%"}
-        h={"auto"}
-        p={5}
+            w={"100%"}
+            h={"auto"}
+            p={5}
         >
             <Heading size={"lg"} color={morado}>
                 Mi Galeria de Lotes
