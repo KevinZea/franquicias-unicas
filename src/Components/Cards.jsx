@@ -10,7 +10,7 @@ import { IoMdResize } from "react-icons/io";
 import { FaMoneyBillTrendUp } from "react-icons/fa6";
 import { FaLocationDot } from "react-icons/fa6";
 
-const Cards = () => {
+const Cards = ({isMobile}) => {
     const amarillo = "#ffc300"
     const blanco = "#faf4e0"
 
@@ -53,12 +53,13 @@ const Cards = () => {
             p={10}
             gap={5}
             justifyContent={"center"}
+            flexDir={isMobile ? "column" : "row"}
         >
             {information.map((card) => (
                 <Box
                     bg={card.fondo}
                     p={5}
-                    w={"20%"}
+                    w={isMobile ? "100%%" : "20%"}
                     color={card.color}
                 >
                     <Box

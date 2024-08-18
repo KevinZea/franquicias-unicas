@@ -9,7 +9,7 @@ import {
 } from '@chakra-ui/react';
 import paraiso from '../assets/paraiso.jpeg';
 
-const Proyect = () => {
+const Proyect = ({isMobile}) => {
     const blanco = "#faf4e0"
     const naranja = "#ff6a00"
     const morado = "#3b0c2c"
@@ -33,11 +33,12 @@ const Proyect = () => {
             <Flex
                 w={"100%"}
                 h={"auto"}
-                pl={20}
-                pr={20}
+                pl={isMobile ? 5 : 20}
+                pr={isMobile ? 5 : 20}
+                flexDir={isMobile ? "column" : "row"}
             >
-                <Box w={"50%"}>
-                    <Flex gap={3} alignItems={"center"}>
+                <Box w={isMobile ? "100%" : "50%"}>
+                    <Flex gap={3} alignItems={"center"} w={"100%"}>
                         <Divider borderColor={"#ff6a00"} w={"10%"} />
                         <Heading size={"md"} color={naranja}>
                             Descripción del proyecto
@@ -59,9 +60,10 @@ const Proyect = () => {
                         amet totam ratione cupiditate iure alias cumque nesciunt. Tenetur natus sunt rem hic.
                     </Text>
                 </Box>
+                {isMobile && <br />}
                 <Box
-                    w={"50%"}
-                    ml={5}
+                    w={isMobile ? "100%" : "50%"}
+                    ml={isMobile ? 0 : 5}
                 >
                     <Image
                         src={paraiso}

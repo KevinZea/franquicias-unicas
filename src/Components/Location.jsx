@@ -6,7 +6,7 @@ import {
     Heading,
 } from '@chakra-ui/react';
 
-const Location = () => {
+const Location = ({isMobile}) => {
 
     return (
         <Box
@@ -21,11 +21,12 @@ const Location = () => {
                 p={10}
                 gap={5}
                 justifyContent={"center"}
+                flexDir={isMobile ? "column" : "row"}
             >
                 <Box
                     bg={"#3b0c2c"}
                     p={5}
-                    w={"40%"}
+                    w={isMobile ? "100%" : "40%"}
                     color={"white"}
                 >
                     <Heading>
@@ -43,7 +44,7 @@ const Location = () => {
                 <Box
                     // bg={"#3b0c2c"}
                     // p={5}
-                    w={"40%"}
+                    w={isMobile ? "100%" : "40%"}
                     color={"white"}>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.2216007507427!2d-74.16286128983124!3d4.55411644289257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9f7cf5234527%3A0x4c91b969882c2e6!2sParaiso%20Mirador!5e0!3m2!1ses-419!2sco!4v1723914829225!5m2!1ses-419!2sco" width="100%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </Box>

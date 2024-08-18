@@ -14,7 +14,7 @@ import { FaFacebook } from "react-icons/fa";
 import { GrInstagram } from "react-icons/gr";
 import { FaWhatsapp } from "react-icons/fa";
 
-const Footer = () => {
+const Footer = ({isMobile}) => {
     const amarillo = "#ffc300"
     const naranja = "#ff6a00"
     return (
@@ -29,12 +29,13 @@ const Footer = () => {
             pb={10}
             pl={5}
             pr={5}
+            
         >
             {/* Navegacion */}
             <Box w={"33%"}>
                 <Box gap={3} display={"flex"} alignItems={"center"}>
                     <Divider borderColor={"red"} w={"10%"} />
-                    <Heading size={"md"}>Navegación</Heading>
+                    <Heading size={isMobile ? "xs" : "md"}>Navegación</Heading>
                 </Box>
                 <Box>
                     <UnorderedList styleType="'- '">
@@ -49,12 +50,12 @@ const Footer = () => {
             <Box w={"33%"}>
                 <Box gap={3} display={"flex"} alignItems={"center"}>
                     <Divider borderColor={"red"} w={"10%"} />
-                    <Heading size={"md"}>Sucursales</Heading>
+                    <Heading size={isMobile ? "xs" : "md"}>Sucursales</Heading>
                 </Box>
                 <Box>
                     <Flex gap={2}>
                         <FaLocationDot />
-                        <Heading size={"xs"}>Bogotá (COL)</Heading>
+                        <Heading size={isMobile ? "xs" : "md"}>Bogotá (COL)</Heading>
                     </Flex>
                     <br />
                     <Text color={"black"}>Calle 70 # 27 B 85</Text>
@@ -64,7 +65,7 @@ const Footer = () => {
             <Box w={"33%"} >
                 <Box gap={3} display={"flex"} alignItems={"center"}>
                     <Divider borderColor={"red"} w={"10%"} />
-                    <Heading size={"md"}>Redes sociales</Heading>
+                    <Heading size={isMobile ? "xs" : "md"}>Redes sociales</Heading>
                 </Box>
                 <Box>
                     <Text>Encuentranos en:</Text>

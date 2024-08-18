@@ -22,7 +22,7 @@ import lote10 from "../assets/lote10.jpg";
 import lote11 from "../assets/lote11.jpg";
 
 
-const MyGallery = () => {
+const MyGallery = ({isMobile}) => {
     const morado = "#3b0c2c"
 
     const photos = [
