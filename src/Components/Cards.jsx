@@ -24,7 +24,7 @@ const Cards = ({isMobile}) => {
         },
         {
             title: "Tamaño",
-            description: "390.000 m2\nLotes desde 240 m2",
+            description: "Tamaño  o área de lotes desde 50 m2 Hasta 1200 m2",
             fondo: "#fcc435",
             logo: <IoMdResize />,
             color: blanco

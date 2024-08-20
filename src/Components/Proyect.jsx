@@ -9,7 +9,7 @@ import {
 } from '@chakra-ui/react';
 import paraiso from '../assets/paraiso.jpeg';
 
-const Proyect = ({isMobile}) => {
+const Proyect = ({ isMobile }) => {
     const blanco = "#faf4e0"
     const naranja = "#ff6a00"
     const morado = "#3b0c2c"
@@ -49,15 +49,13 @@ const Proyect = ({isMobile}) => {
                     </Heading>
                     <br />
                     <Text color={morado}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Voluptas aspernatur non asperiores, architecto voluptatibus accusamus molestias nihil,
-                        amet totam ratione cupiditate iure alias cumque nesciunt. Tenetur natus sunt rem hic.
+                        * somos altamente eficaces en el servicio de nuestros clientes
                     </Text>
                     <br />
                     <Text color={morado}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Voluptas aspernatur non asperiores, architecto voluptatibus accusamus molestias nihil,
-                        amet totam ratione cupiditate iure alias cumque nesciunt. Tenetur natus sunt rem hic.
+                        * cumplimos con las necesidades  de nuestros clientes
+                        <br />
+                        * somos reconocidos a nivel Bogotá por nuestra alta eficacia .
                     </Text>
                 </Box>
                 {isMobile && <br />}
