@@ -2,7 +2,7 @@ import { Button, Box } from '@chakra-ui/react';
 import { FaWhatsapp } from 'react-icons/fa'; // Importa el icono de WhatsApp
 
 const WhatsAppButton = () => {
-  const phoneNumber = '573202245280';
+  const phoneNumber = '573115125189';
   const defaultMessage = encodeURIComponent('Hola, me gustaría saber más sobre tus servicios.'); // Codifica el mensaje para URL
 
   const handleClick = () => {
