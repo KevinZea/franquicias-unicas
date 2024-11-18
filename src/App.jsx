@@ -1,5 +1,4 @@
 import React, { useRef, useState, useEffect } from "react"
-import { Box } from "@chakra-ui/react"
 import Navbar from "./Components/Navbar"
 import Introduction from "./Components/Introduction"
 import Cards from "./Components/Cards"
