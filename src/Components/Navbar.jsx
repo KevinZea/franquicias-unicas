@@ -11,8 +11,8 @@ import logo from '../assets/logo.png';
 
 const Navbar = ({ refs, isMobile }) => {
 
-    const amarillo = "#ffc300"
-    const blanco = "#faf4e0"
+    const amarillo = "#2e97b7"
+    const blanco = "#a4dcb9"
 
     const scrollToSection = (ref) => {
         window.scrollTo({
@@ -58,7 +58,7 @@ const Navbar = ({ refs, isMobile }) => {
                 }
                 onClick={() => scrollToSection(refsArray[2])}
             >
-                <Heading color={blanco} size={isMobile ? "xs" : "md"}>Lotes</Heading>
+                <Heading color={blanco} size={isMobile ? "xs" : "md"}>Franquicias</Heading>
             </Box>
             <Box
                 _hover={

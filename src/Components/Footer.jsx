@@ -15,7 +15,7 @@ import { GrInstagram } from "react-icons/gr";
 import { FaWhatsapp } from "react-icons/fa";
 
 const Footer = ({isMobile}) => {
-    const amarillo = "#ffc300"
+    const amarillo = "#a4dcb9"
     const naranja = "#ff6a00"
     return (
         <Flex

@@ -12,7 +12,7 @@ import { PiWarehouseBold } from "react-icons/pi";
 import { PiPottedPlantFill } from "react-icons/pi";
 
 const Icons = ({ isMobile }) => {
-    const blanco = "#faf4e0"
+    const blanco = "#fdf4b0"
     const naranja = "#ff6a00"
     const morado = "#3b0c2c"
 
@@ -49,7 +49,7 @@ const Icons = ({ isMobile }) => {
                     textAlign={"center"}
 
                 >
-                    Comparte en familia
+                    Conoce nuevos socios
                 </Heading>
             </Box>
 
@@ -76,7 +76,7 @@ const Icons = ({ isMobile }) => {
                     size={isMobile ? "xs" : "md"}
                     textAlign={"center"}
                 >
-                    Obten tu propia vivienda
+                    Obten tu propio negocio
                 </Heading>
             </Box>
 
@@ -103,7 +103,7 @@ const Icons = ({ isMobile }) => {
                     textAlign={"center"}
 
                 >
-                    Vive en un lugar seguro
+                    Trabaja desde donde quieras
                 </Heading>
             </Box>
         </Flex>

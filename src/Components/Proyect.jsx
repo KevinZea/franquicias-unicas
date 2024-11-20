@@ -7,11 +7,11 @@ import {
     Text,
     Image
 } from '@chakra-ui/react';
-import paraiso from '../assets/paraiso.jpeg';
+import paraiso from '../assets/paraiso.jpg';
 
 const Proyect = ({ isMobile }) => {
-    const blanco = "#faf4e0"
-    const naranja = "#ff6a00"
+    const blanco = "#a4dcb9"
+    const naranja = "#2e97b7"
     const morado = "#3b0c2c"
     return (
         <Box
@@ -41,21 +41,23 @@ const Proyect = ({ isMobile }) => {
                     <Flex gap={3} alignItems={"center"} w={"100%"}>
                         <Divider borderColor={"#ff6a00"} w={"10%"} />
                         <Heading size={"md"} color={naranja}>
-                            Descripción del proyecto
+                            Descripción de las Franquicias
                         </Heading>
                     </Flex>
                     <Heading color={naranja}>
-                        Poblado Paraiso Mirador & Quiba
+                        Convierte en Mayorista a nivel nacional e internacional
                     </Heading>
                     <br />
                     <Text color={morado}>
-                        * somos altamente eficaces en el servicio de nuestros clientes
+                        * Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </Text>
                     <br />
                     <Text color={morado}>
-                        * cumplimos con las necesidades  de nuestros clientes
+                        * Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
                         <br />
-                        * somos reconocidos a nivel Bogotá por nuestra alta eficacia .
+                        * Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
                     </Text>
                 </Box>
                 {isMobile && <br />}

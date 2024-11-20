@@ -12,14 +12,14 @@ import {
 import lote1 from "../assets/lote1.jpg";
 import lote2 from "../assets/lote2.jpg";
 import lote3 from "../assets/lote3.jpg";
-import lote4 from "../assets/lote4.jpg";
-import lote5 from "../assets/lote5.jpg";
-import lote6 from "../assets/lote6.jpg";
-import lote7 from "../assets/lote7.jpg";
-import lote8 from "../assets/lote8.jpg";
-import lote9 from "../assets/lote9.jpg";
-import lote10 from "../assets/lote10.jpg";
-import lote11 from "../assets/lote11.jpg";
+// import lote4 from "../assets/lote4.jpg";
+// import lote5 from "../assets/lote5.jpg";
+// import lote6 from "../assets/lote6.jpg";
+// import lote7 from "../assets/lote7.jpg";
+// import lote8 from "../assets/lote8.jpg";
+// import lote9 from "../assets/lote9.jpg";
+// import lote10 from "../assets/lote10.jpg";
+// import lote11 from "../assets/lote11.jpg";
 
 
 const MyGallery = ({isMobile}) => {
@@ -42,42 +42,42 @@ const MyGallery = ({isMobile}) => {
             height: 1,
         },
         {
-            src: lote4,
+            src: lote1,
             width: 1,
             height: 1,
         },
         {
-            src: lote5,
+            src: lote2,
             width: 1,
             height: 1,
         },
         {
-            src: lote6,
+            src: lote3,
             width: 1,
             height: 1,
         },
         {
-            src: lote7,
+            src: lote1,
             width: 1,
             height: 1,
         },
         {
-            src: lote8,
+            src: lote2,
             width: 1,
             height: 1,
         },
         {
-            src: lote9,
+            src: lote3,
             width: 1,
             height: 1,
         },
         {
-            src: lote10,
+            src: lote1,
             width: 1,
             height: 1,
         },
         {
-            src: lote11,
+            src: lote2,
             width: 1,
             height: 1,
         },
@@ -107,10 +107,10 @@ const MyGallery = ({isMobile}) => {
             p={5}
         >
             <Heading size={"lg"} color={morado}>
-                Mi Galeria de Lotes
+                Algunos de nuestros productos
             </Heading>
             <Text color={morado}>
-                Aquí puedes ver una galería de lotes que tenemos disponibles
+                Aqui puedes ver algunos de los productos que ofrecemos
             </Text>
             <br />
             <Gallery photos={photos} onClick={openLightbox} />

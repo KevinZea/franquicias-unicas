@@ -8,7 +8,7 @@ import introduction from "../assets/introduction.jpg";
 
 
 const Introduction = () => {
-    const amarillo = "#ffc300"
+    const amarillo = "#5bcebf"
     const blanco = "#faf4e0"
 
     return (
@@ -34,7 +34,7 @@ const Introduction = () => {
                     zIndex={1}
                     textShadow={"2px 2px 4px #000000"}
                 >
-                    Consigue tu <Text color={amarillo}>Terreno</Text> ideal
+                    Consigue tu <Text color={amarillo}>Franquicia</Text> Unica
                 </Heading>
             </Box>
 

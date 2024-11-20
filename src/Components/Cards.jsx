@@ -12,34 +12,34 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const Cards = ({isMobile}) => {
     const amarillo = "#ffc300"
-    const blanco = "#faf4e0"
+    const blanco = "#a4dcb9"
 
     const information = [
         {
             title: "Información",
-            description: "Su ubicación, el hermoso paisaje de las zonas rurales, el desarrollo y cercanía a la ciudad de Bogotá, hacen del lugar ideal para invertir, muy cerca a la localidad de Ciudad Bolivar un lugar para el turismo y el descanso.",
+            description: "Se parte de nuestra franquicia y convierte en mayorista en todo latinoamérica. \n",
             fondo: "white",
             logo: <FaInfo />,
             color: "black"
         },
         {
-            title: "Tamaño",
-            description: "Tamaño  o área de lotes desde 50 m2 Hasta 1200 m2",
-            fondo: "#fcc435",
+            title: "Lorem ipsum",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \n",
+            fondo: "#2e97b7",
             logo: <IoMdResize />,
             color: blanco
         },
         {
-            title: "Inversión",
-            description: "El valor de nuestros lotes varía de acuerdo al proyecto, su tamaño, ubicación, cercanía a la ciudad, etapa constructiva y tipo de negociación.",
-            fondo: "#3b0c2c",
+            title: "Ganancias",
+            description: "Multiplica tus ganancias con nuestra franquicia. \n",
+            fondo: "#32b9be",
             logo: <FaMoneyBillTrendUp />,
             color: blanco
         },
         {
             title: "Ubicación",
-            description: "Bogotá. A kms del Mirador sobre la carretera Bogotá - La Mesa. A 45 minutos de Bogotá.",
-            fondo: "#d2ff1f",
+            description: "Bogotá. Parque Empresarial Mosquera II Km18 vía Soacha Mz05 Und074",
+            fondo: "#5bcebf",
             logo: <FaLocationDot />,
             color: "black"
         },
@@ -71,8 +71,8 @@ const Cards = ({isMobile}) => {
                     >
 
                         <Box
-                            bg={"#ff6a00"}
-                            color={"white"}
+                            bg={"#fdf4b0"}
+                            color={"#2e97b7"}
                             transform={"rotate(45deg)"}
                             w={10}
                             h={10}
