@@ -49,14 +49,23 @@ const Proyect = ({ isMobile }) => {
                     </Heading>
                     <br />
                     <Text color={morado}>
-                        * Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nuestra franquicia ofrece una oportunidad única para convertirse en mayorista de productos de alta calidad. Con una red de distribución sólida y un modelo de negocio probado, nuestros franquiciados pueden expandir su alcance tanto a nivel nacional como internacional. Ofrecemos soporte continuo y recursos para asegurar el éxito de cada franquicia.
                     </Text>
                     <br />
                     <Text color={morado}>
-                        * Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        <b>Beneficios:</b>
 
                         <br />
-                        * Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        - Soporte continuo
+                        <br />
+                        - Modelo de negocio probado
+                        <br />
+                        - Red de distribución sólida
+                        <br />
+                        - Oportunidades de expansión
+                        <br />
+                        - Productos de alta calidad
+                        
 
                     </Text>
                 </Box>

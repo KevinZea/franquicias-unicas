@@ -47,7 +47,8 @@ const Location = ({isMobile}) => {
                     // p={5}
                     w={isMobile ? "100%" : "40%"}
                     color={"white"}>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7953.4806907976135!2d-74.14578503918911!3d4.640342331259841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9c16de9ded55%3A0x4c7bf2d5d7e26044!2sCastilla%2C%20Ciudad%20Kennedy%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1732078900396!5m2!1ses!2sco" width="100%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.3259401304636!2d-74.23913328983211!3d4.71332969524195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f781e870846d3%3A0xc02022bb7cee8e59!2sParque%20Empresarial%20Mosquera!5e0!3m2!1ses!2sco!4v1732852307639!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.3259401304636!2d-74.23913328983211!3d4.71332969524195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f781e870846d3%3A0xc02022bb7cee8e59!2sParque%20Empresarial%20Mosquera!5e0!3m2!1ses!2sco!4v1732852307639!5m2!1ses!2sco" width="100%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </Box>
             </Flex>
         </Box>

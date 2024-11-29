@@ -23,8 +23,8 @@ const Cards = ({isMobile}) => {
             color: "black"
         },
         {
-            title: "Lorem ipsum",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \n",
+            title: "Administra tu propio negocio",
+            description: "Conviértete en dueño de tu propio negocio y administra tus propios horarios. \n",
             fondo: "#2e97b7",
             logo: <IoMdResize />,
             color: blanco

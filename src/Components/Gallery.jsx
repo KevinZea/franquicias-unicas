@@ -12,8 +12,8 @@ import {
 import lote1 from "../assets/lote1.jpg";
 import lote2 from "../assets/lote2.jpg";
 import lote3 from "../assets/lote3.jpg";
-// import lote4 from "../assets/lote4.jpg";
-// import lote5 from "../assets/lote5.jpg";
+import lote4 from "../assets/lote4.jpg";
+import lote5 from "../assets/lote5.jpg";
 // import lote6 from "../assets/lote6.jpg";
 // import lote7 from "../assets/lote7.jpg";
 // import lote8 from "../assets/lote8.jpg";
@@ -42,45 +42,16 @@ const MyGallery = ({isMobile}) => {
             height: 1,
         },
         {
-            src: lote1,
+            src: lote4,
             width: 1,
             height: 1,
         },
         {
-            src: lote2,
+            src: lote5,
             width: 1,
             height: 1,
         },
-        {
-            src: lote3,
-            width: 1,
-            height: 1,
-        },
-        {
-            src: lote1,
-            width: 1,
-            height: 1,
-        },
-        {
-            src: lote2,
-            width: 1,
-            height: 1,
-        },
-        {
-            src: lote3,
-            width: 1,
-            height: 1,
-        },
-        {
-            src: lote1,
-            width: 1,
-            height: 1,
-        },
-        {
-            src: lote2,
-            width: 1,
-            height: 1,
-        },
+        
         // Agrega más imágenes aquí
     ];
 
