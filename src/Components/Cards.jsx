@@ -9,6 +9,8 @@ import { FaInfo } from "react-icons/fa";
 import { IoMdResize } from "react-icons/io";
 import { FaMoneyBillTrendUp } from "react-icons/fa6";
 import { FaLocationDot } from "react-icons/fa6";
+import PDFViewerButton from "./PDFViewerButton";
+
 
 const Cards = ({isMobile}) => {
     const amarillo = "#ffc300"
@@ -93,9 +95,22 @@ const Cards = ({isMobile}) => {
                     <br />
                     <Text
                     whiteSpace={"pre-wrap"}
+                    mb={5}
                     >
                         {card.description}
                     </Text>
+                    {card.title === "Información" && (
+                        <PDFViewerButton
+                            pdfURL={"../../public/FRANQUICIA..pdf"}
+                            buttonText={"Ver más"}
+                        />
+                    )}
+                    {card.title === "Administra tu propio negocio" && (
+                        <PDFViewerButton
+                            pdfURL={"../../public/MERCADOS.pdf"}
+                            buttonText={"Ver más"}
+                        />
+                    )}
                 </Box>
             ))}
 
