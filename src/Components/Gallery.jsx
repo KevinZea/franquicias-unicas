@@ -33,22 +33,22 @@ const MyGallery = ({isMobile}) => {
         },
         {
             src: lote2,
-            width: 1,
+            width: 2,
             height: 1,
         },
         {
             src: lote3,
-            width: 1,
+            width: 3,
             height: 1,
         },
         {
             src: lote4,
-            width: 1,
+            width: 3,
             height: 1,
         },
         {
             src: lote5,
-            width: 1,
+            width: 2,
             height: 1,
         },
         
@@ -78,10 +78,10 @@ const MyGallery = ({isMobile}) => {
             p={5}
         >
             <Heading size={"lg"} color={morado}>
-                Algunos de nuestros productos
+                Nos relacionamos con
             </Heading>
             <Text color={morado}>
-                Aqui puedes ver algunos de los productos que ofrecemos
+                Aqui puedes ver algunas de las relaciones que ofrecemos
             </Text>
             <br />
             <Gallery photos={photos} onClick={openLightbox} />
