@@ -32,8 +32,8 @@ const Cards = ({isMobile}) => {
             color: blanco
         },
         {
-            title: "Ganancias",
-            description: "Multiplica tus ganancias con nuestra franquicia. \n",
+            title: "Promociones",
+            description: "Mira nuestras nuevas promociones de productos",
             fondo: "#32b9be",
             logo: <FaMoneyBillTrendUp />,
             color: blanco
@@ -108,6 +108,12 @@ const Cards = ({isMobile}) => {
                     {card.title === "Administra tu propio negocio" && (
                         <PDFViewerButton
                             pdfURL={"../../public/MERCADOS.pdf"}
+                            buttonText={"Ver más"}
+                        />
+                    )}
+                    {card.title === "Promociones" && (
+                        <PDFViewerButton
+                            pdfURL={"../../public/PROMOCIONES.pdf"}
                             buttonText={"Ver más"}
                         />
                     )}
