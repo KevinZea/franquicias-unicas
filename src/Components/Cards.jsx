@@ -18,14 +18,14 @@ const Cards = ({isMobile}) => {
 
     const information = [
         {
-            title: "Información",
+            title: "Precontrato",
             description: "Se parte de nuestra franquicia y convierte en mayorista en todo latinoamérica. \n",
             fondo: "white",
             logo: <FaInfo />,
             color: "black"
         },
         {
-            title: "Administra tu propio negocio",
+            title: "Mercados",
             description: "Conviértete en dueño de tu propio negocio y administra tus propios horarios. \n",
             fondo: "#2e97b7",
             logo: <IoMdResize />,
@@ -56,6 +56,7 @@ const Cards = ({isMobile}) => {
             gap={5}
             justifyContent={"center"}
             flexDir={isMobile ? "column" : "row"}
+            
         >
             {information.map((card) => (
                 <Box
@@ -63,6 +64,7 @@ const Cards = ({isMobile}) => {
                     p={5}
                     w={isMobile ? "100%%" : "20%"}
                     color={card.color}
+                    mt={40}
                 >
                     <Box
                     display={"flex"}
@@ -99,13 +101,13 @@ const Cards = ({isMobile}) => {
                     >
                         {card.description}
                     </Text>
-                    {card.title === "Información" && (
+                    {card.title === "Precontrato" && (
                         <PDFViewerButton
                             pdfURL={"../../public/FRANQUICIA.pdf"}
                             buttonText={"Ver más"}
                         />
                     )}
-                    {card.title === "Administra tu propio negocio" && (
+                    {card.title === "Mercados" && (
                         <PDFViewerButton
                             pdfURL={"../../public/MERCADOS.pdf"}
                             buttonText={"Ver más"}
