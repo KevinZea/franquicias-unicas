@@ -103,19 +103,19 @@ const Cards = ({isMobile}) => {
                     </Text>
                     {card.title === "Precontrato" && (
                         <PDFViewerButton
-                            pdfURL={"../../public/FRANQUICIA.pdf"}
+                            pdfURL={"/pdfs/FRANQUICIA.pdf"}
                             buttonText={"Ver más"}
                         />
                     )}
                     {card.title === "Mercados" && (
                         <PDFViewerButton
-                            pdfURL={"../../public/MERCADOS.pdf"}
+                            pdfURL={"/pdfs/MERCADOS.pdf"}
                             buttonText={"Ver más"}
                         />
                     )}
                     {card.title === "Promociones" && (
                         <PDFViewerButton
-                            pdfURL={"../../public/PROMOCIONES.pdf"}
+                            pdfURL={"/pdfs/PROMOCIONES.pdf"}
                             buttonText={"Ver más"}
                         />
                     )}
