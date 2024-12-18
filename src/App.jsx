@@ -30,7 +30,7 @@ function App() {
   return (
     <>
       <Navbar refs={{ aboutUs, cards, galeria, ubicacion }} isMobile={isMobile} />
-      <div ref={cards}><Introduction /></div>
+      {/* <div ref={cards}><Introduction /></div> */}
       <div><Cards isMobile={isMobile}/></div>
       <div ref={aboutUs}><Proyect isMobile={isMobile}/></div>
       <div ref={galeria}><Gallery isMobile={isMobile}/></div>

@@ -101,7 +101,7 @@ const Cards = ({isMobile}) => {
                     </Text>
                     {card.title === "Información" && (
                         <PDFViewerButton
-                            pdfURL={"../../public/FRANQUICIA..pdf"}
+                            pdfURL={"../../public/FRANQUICIA.pdf"}
                             buttonText={"Ver más"}
                         />
                     )}
