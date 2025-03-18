@@ -8,6 +8,7 @@ import Icons from "./Components/Icons"
 import Location from "./Components/Location"
 import Footer from "./Components/Footer"
 import WhatsAppButton from "./Components/WhatsAppButton"
+import DocumentosButtons from "./Components/DocumentosButtons"
 
 function App() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -31,6 +32,8 @@ function App() {
     <>
       <Navbar refs={{ aboutUs, cards, galeria, ubicacion }} isMobile={isMobile} />
       {/* <div ref={cards}><Introduction /></div> */}
+      <br />
+      <div ref={cards}><DocumentosButtons /></div>
       <div><Cards isMobile={isMobile}/></div>
       <div ref={aboutUs}><Proyect isMobile={isMobile}/></div>
       <div ref={galeria}><Gallery isMobile={isMobile}/></div>
